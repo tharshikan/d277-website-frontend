@@ -117,6 +117,18 @@ main {
     border: 1px solid #ccc;
 }
 
+/* Adding Absolute Positioning Example */
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 input[type="submit"] {
     display: inline-block;
     background-color: #007BFF;
@@ -140,4 +152,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* ID Selector Example */
+#unique-element {
+    color: blue;
+    font-weight: bold;
 }
